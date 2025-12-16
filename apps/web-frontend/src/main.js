@@ -133,7 +133,7 @@ for (const i in Vue.SWPlugins) {
 }
 routes[0].children.push({ path: '/p', redirect: defaultObservingRoute.path })
 var router = new Router({
-  mode: 'history',
+  mode: window.Capacitor ? 'hash' : 'history',
   base: '/',
   routes: routes
 })
@@ -151,8 +151,8 @@ new Vue({
   vuetify
 }).$mount('#app')
 
-// Register service worker for PWA support
-if ('serviceWorker' in navigator) {
+// Register service worker for PWA support (but not for Capacitor native apps)
+if ('serviceWorker' in navigator && !window.Capacitor) {
   window.addEventListener('load', () => {
     navigator.serviceWorker.register('/sw.js')
       .then(registration => {
