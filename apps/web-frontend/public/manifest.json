@@ -8,12 +8,12 @@
   "orientation": "any",
   "icons": [
     {
-      "src": "/icons/icon-192.png",
+      "src": "/stellarium.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/icons/icon-192.png",
+      "src": "/stellarium.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
