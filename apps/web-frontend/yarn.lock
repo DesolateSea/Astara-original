@@ -964,11 +964,6 @@
   "resolved" "https://registry.npmjs.org/@capacitor/motion/-/motion-8.0.0.tgz"
   "version" "8.0.0"
 
-"@capacitor/status-bar@^8.0.0":
-  "integrity" "sha512-aIj3bc7z8lfPgOen8HlrBrkfnxpFnh21OCx6jCUx4Mvv+B6eEkUQ49b32DOddgVfr+igRHLX2SYi7duqIsNDXg=="
-  "resolved" "https://registry.npmjs.org/@capacitor/status-bar/-/status-bar-8.0.0.tgz"
-  "version" "8.0.0"
-
 "@hapi/address@2.x.x":
   "integrity" "sha512-QD1PhQk+s31P1ixsX0H0Suoupp3VMXzIVMSwobR3F3MSUO2YCV0B7xqLcUw/Bh8yuvd3LhpyqLQWTNcRmp6IdQ=="
   "resolved" "https://registry.npmjs.org/@hapi/address/-/address-2.1.4.tgz"
