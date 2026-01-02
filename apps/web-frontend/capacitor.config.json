@@ -9,5 +9,13 @@
     "android": {
         "allowMixedContent": true,
         "webContentsDebuggingEnabled": false
+        "adjustMarginsForEdgeToEdge": "force"
+    },
+    "plugins": {
+        "SystemBars": {
+            "style": "DARK",
+            "hidden": true,
+            "insetsHandling": "css"
+        }
     }
 }
