@@ -1,6 +1,6 @@
 {
     "appId": "com.stellariumlabs.stellaweb",
-    "appName": "Stella",
+    "appName": "VayuView",
     "webDir": "dist",
     "bundledWebRuntime": false,
     "server": {
@@ -8,7 +8,7 @@
     },
     "android": {
         "allowMixedContent": true,
-        "webContentsDebuggingEnabled": true,
+        "webContentsDebuggingEnabled": false
         "adjustMarginsForEdgeToEdge": "force"
     },
     "plugins": {
