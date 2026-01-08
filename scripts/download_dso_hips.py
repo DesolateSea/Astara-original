@@ -131,7 +131,7 @@ dsos = [
 
 # Base HiPS URL (DSS2 Color)
 BASE_URL = "http://alasky.u-strasbg.fr/DSS/DSSColor"
-OUTPUT_BASE = "public/hips"
+OUTPUT_BASE = "apps/web-frontend/public/hips"
 BASE_PROPERTIES = None
 
 def get_base_properties():
